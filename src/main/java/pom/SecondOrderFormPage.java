@@ -32,7 +32,7 @@ public class SecondOrderFormPage {
         driver.findElement(colourCheckBox).click();
         driver.findElement(commentField).sendKeys(testComment);
         driver.findElement(makeOrderButton).click();
-        driver.findElement(popupYesButton).sendKeys(Keys.ENTER);
+        driver.findElement(popupYesButton).click();
     }
     public void orderCreationCheck(){
         String expected = "Заказ оформлен";
