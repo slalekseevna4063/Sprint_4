@@ -16,7 +16,7 @@ public class SecondOrderFormPage {
     private final By commentField = By.cssSelector("[placeholder= 'Комментарий для курьера']");
     // Локаторы кнопок "Заказать" для итогового оформления заказа
     private final By makeOrderButton = By.cssSelector("button.Button_Middle__1CSJM:nth-child(2)");
-    private final By popupYesButton = By.cssSelector("button.Button_Middle__1CSJM:nth-child(2)");
+    private final By popupYesButton = By.cssSelector("div.Order_Buttons__1xGrp:nth-child(2)>button:nth-child(2)");
     // Локатор модалки
     private final By modalTextAboutSuccess = By.xpath("//*[@id=\"root\"]/div/div[2]/div[5]/div[1]");
 
